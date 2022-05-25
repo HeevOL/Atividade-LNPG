@@ -54,7 +54,7 @@ def literal(caminho):
 
 
 def main():
-    caminho = input()
+    caminho = input("Digite o caminho do arquivo e o nome dele: \n")
     arquivo = open(caminho, "r", encoding="UTF-8")
     palavrasArquivo = separador(arquivo)
     arquivo.close()
